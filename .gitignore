@@ -10,8 +10,10 @@ __pycache__/
 models/*.pth
 models/*.pt
 
-# Generated videos
-outputs/*.mp4
+# Generated videos (except demo)
+outputs/*
+!outputs/demo/
+!outputs/demo/detected_video.mp4
 
 # Temporary files
 .ipynb_checkpoints/
